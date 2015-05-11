@@ -8,6 +8,6 @@ This Scilab program takes into account :
 - Degeneracy (cycling)  
    
 It is therefore able to handle most cases. The program was tested on a problem including an initialization phase.
-The problem includes 2 dimensions and therefore could be visualized in R². Geogebra was used to produce this visualization.
+The problem includes 2 dimensions and therefore could be visualized in R². Geogebra was used to produce this visualization. The interactive Geogebra applet is available [here](http://tube.geogebra.org/student/m1170021).
 
 
