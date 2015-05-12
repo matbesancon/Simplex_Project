@@ -17,8 +17,7 @@ function simplex(A,b,rel,c,typ)
     [A,b,c,base]=standardForm(A,b,rel,c,typ);
     disp(A); disp(b); disp(c); disp(z); disp(base)
     
-    // Le vecteur base est un vecteur ligne. Il contient l'information des vecteurs qui sont en base ainsi que leur position (ligne). Ainsi, si le vecteur base est (2,3,5), la première ligne de A a pour vecteur en base le vecteur 2, la seconde ligne de A a pour vecteur en base le vecteur 3...
-    
+    // The base vector is a row vector. It provides the program with the information : "what vector is in the base" and their position
     if isBaseValid(A,base)==1 then
         
         // if the problem is already in a standard form, the base is feasible, simplex is directly applied.
